@@ -1,0 +1,44 @@
+.banner {    
+    width: 92%;
+    height: 200px;
+    margin: auto;
+    margin-top: 3%;
+    background-image: url(../assets/img_section1.png);
+    background-repeat:no-repeat;
+    background-position:right;   
+    background-color: #dfdbdb;
+    background-blend-mode: darken;
+    border-radius: 25px;        
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        width: 86%;
+        height:115px;            
+    }
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;    
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        width: 70%;
+        height:115px;     
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start;
+        font-size: 25px;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    width: 28%;
+    height: 300px;
+    margin-top: 3%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+    background-color: #FF6060;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 100%;   
+        margin-bottom: 3%;     
+    }
+}
+
+.card-text {    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;    
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 70%;
+    padding-left: 6%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 767px) {
+    .card-text {
+        width: 100%;  
+        margin-right: 60%;
+        margin-bottom: 3%;
+        padding-left: 5%;                  
+    }
+}
