@@ -1,14 +1,12 @@
 //import Thumb from '../components/Thumb'
-import Banner from '../components/Banner'
+//import Banner from '../components/Banner'
 //import Thumb from '../components/Thumb'
-import Footer from '../components/Footer'
+//import Footer from '../components/Footer'
 
 function Apropos() {
   return (
     <div>
-      <Banner />        
-      
-      <Footer />
+      <h1>Coucou</h1>
       
       
     </div>
